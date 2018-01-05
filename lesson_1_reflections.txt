@@ -1,0 +1,49 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+	
+	viewing the difference between the two files with diff helped because it highlighted which lines had been edited and easily see the changes between them
+
+	it also does a line by line comparison so that longer code is much faster becasue I only need to look at the lines tht have changed and not every line
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It would enable you to see what changed over time
+    & in the event of an error it could help pinpoint at which change it occured 
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    It would be easy to forget to save a comit and then the version control is less effective
+    it could be easy to forget to commit
+    pro only need to save when substantial changes have been made thus less versions to review and only impactful changes were saved
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    google docs most of the time each file is independent whereas when programing often one file relies on the other to work
+    they are orentated towards files that are not usually intertwined
+
+How can you use the commands git log and git diff to view the history of files?
+
+    call git log to view the history of changed and use git diff to compare the last file to the current one
+    To clone a repository, run git clone followed by a space and the repository URL.
+    git config --global color.ui auto will set the output to use color
+    also git log --stat will give change statistics
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    it will allow you to save a working version and then go on to make changes to that could break something. 
+    then you can compare the changes and hopefull spot an error
+    or worst case you can roll the changes back to the last previous version
+    there is also the possibility to fork the project into a development branch
+    you can step into a specific commit and id the error
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    tracking changes and version history
+    also to learn what other functionality it has
+    I also want to have the ability to make changes and roll back projects in addition to forking projects
+    
