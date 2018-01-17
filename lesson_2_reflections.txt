@@ -33,3 +33,9 @@ it looks like a branch then it comes back together. It is represented in the bec
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+It will automatically combine the two files. and all of their parts. 
+If a section was re written it might not cahtch it because it might see it as a new line and not a rewrite
+Also it could have a conflict with the same line becaue it was changed in both versions. This must be mannual resolved. It forces you to look where the changes were made and conflicts exsist and then resolve them
+Automaticly allows it to focus on the new or chaged linees and thus nt needing to look over all of the lines
+it does leave it prone to the conflits issues where things might change and the code will not notice it.
