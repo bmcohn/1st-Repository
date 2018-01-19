@@ -2,3 +2,8 @@ When would you want to use a remote repository rather than keeping all your work
 
 When you are working with other people, it stores the shared repository in a centralized place
 Also allows you to save a copy in the cloud so that access is not restricted to a local machine or drive
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+so that you are only pulling things that are needed. if you are working with a team and they make commits then those would be pushed even when that are not needed if it was automatic. this would be a lot of uneccessary files and space. When instead it would be much more efficient to do only specify what is needed and do it manually when you feel it is necessary due to a change or something.
+
