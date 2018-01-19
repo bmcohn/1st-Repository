@@ -7,3 +7,16 @@ Why might you want to always pull changes manually rather than having Git automa
 
 so that you are only pulling things that are needed. if you are working with a team and they make commits then those would be pushed even when that are not needed if it was automatic. this would be a lot of uneccessary files and space. When instead it would be much more efficient to do only specify what is needed and do it manually when you feel it is necessary due to a change or something.
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks are a function of GitHub and only online, they copy over someones repository and gives credit to where it came from 
+Clones are a exact copy of an exsisting repository (can be local and also networked like a git hub repository)
+Branches are a chain of commits (remote or local)
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+it is something that can be easily refereneced to know how many need to be pushed to the cloud. it also will benchmark the change from where you last synced so that it can be esaier to tell wehre mergers might happen or where the version changed
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Without git you would have to manually compare each line and analyze it for changes. GitHub is an online place to do similar things to git so it would be the same. with out git it would be much harder and git hub enables it to be cloud based thus easily sharing with peers.
