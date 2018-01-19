@@ -20,3 +20,8 @@ it is something that can be easily refereneced to know how many need to be pushe
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 Without git you would have to manually compare each line and analyze it for changes. GitHub is an online place to do similar things to git so it would be the same. with out git it would be much harder and git hub enables it to be cloud based thus easily sharing with peers.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+When I am making a change that is in development. It allows the mater branch to stay working and edit develpment. then it can be reviewed and the collaborators can agree to add it if it keeps the code working and is something tht is wanted. 
+It makes suere that code doesnt break and is functioning initlly. It is somewhat challenging when master gets remotely updated and then requres checking and possible merging of more lines
