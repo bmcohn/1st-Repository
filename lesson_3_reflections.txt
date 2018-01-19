@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+When you are working with other people, it stores the shared repository in a centralized place
+Also allows you to save a copy in the cloud so that access is not restricted to a local machine or drive
